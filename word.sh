@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "enter the word to search"
 read word
 grep -l -R "$word"
