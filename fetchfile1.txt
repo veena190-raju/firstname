@@ -1,0 +1,2 @@
+fetching the git files into loca repo
+and then run the command
