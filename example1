@@ -1,3 +1,6 @@
-ahng
-ggfff
-bbbh
+a = b
+a = $1 b = $2
+then 
+a+b = 2ab
+sum= a+b
+mul= a*b

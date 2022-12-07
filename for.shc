@@ -1,7 +1,11 @@
 #!/bin/bash
+
 for i in $*
 do 
 sum=`expr $sum + $i`
 done
-echo "sum of numbers $* is $sum"
 
+echo "sum of numbers $* is $sum"
+FACT=`expr $FACT \* $NUM`
+echo "fact of numbers $* is $fact"
+SUB=`expr $SUB - $NUM`
