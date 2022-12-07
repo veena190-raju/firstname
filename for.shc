@@ -8,3 +8,4 @@ done
 echo "sum of numbers $* is $sum"
 FACT=`expr $FACT \* $NUM`
 echo "fact of numbers $* is $fact"
+SUB=`expr $SUB - $NUM`
