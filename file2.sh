@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "enter the name to check"
 read name
 if [ -f $name ]
@@ -12,8 +13,6 @@ then
 echo "the directory contains a files as below"
 ls
 fi
-
 echo
 ls | wc -w
 fi
-
